@@ -1,0 +1,80 @@
+# Laravel specific files
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/.env
+.env.*.php
+/.idea
+/.vscode
+/.phpunit.result.cache
+
+# Ignore Laravel logs and caches
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+/storage/debugbar
+
+# Ignore Composer dependencies
+/vendor
+
+# Laravel Nova specific
+/nova-components
+
+# Ignore the compiled bootstrap files
+/bootstrap/cache
+
+# Ignore Composer lock file, if desired
+# composer.lock
+
+# Ignore npm/yarn lock files, if desired
+# package-lock.json
+# yarn.lock
+
+# Ignore compiled files and caches in general
+/public/hot
+/public/storage
+/public/mix-manifest.json
+/node_modules
+/npm-debug.log
+/yarn-error.log
+
+# Ignore coverage reports
+/coverage
+
+# Ignore caches
+/.phpunit.result.cache
+.php_cs.cache
+.php-cs-fixer.cache
+
+# Ignore IDE-specific files
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# Ignore deployment specific
+homestead.yaml
+Homestead.yaml
+.env.backup
+.env.example.bak
+
+# React specific files
+/node_modules
+/.env
+/.next
+/build
+/dist
+.eslintcache
+/coverage
+.cache
+
+# Ignore lock files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
